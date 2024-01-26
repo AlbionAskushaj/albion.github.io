@@ -2,12 +2,36 @@
 <head> 
 
 <style>
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FF0000;
+  color: white;
+}
+
 body{
-	background-image: url("vlore.jpg");
-	background-size: cover;
+	background-color: gray;
 }
  .card {
-            background-color: rgba(169, 169, 169, 0.7); 
+            background-color: rgb(255, 255, 255); 
             padding: 20px; 
             border-radius: 10px; 
             max-width: 800px; 
@@ -21,15 +45,13 @@ body{
 
         h1 {
             font-size: 24px; 
+        }
 
         p {
             font-size: 16px; 
         }
 		
 </style>
-
-
-
 
  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,15 +60,27 @@ body{
 
 
 <body>
+
+
+    <body>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+        
+
+
+
 <div class="card">
 <div class="text">
 <h1> About me! </h1>
-		<p>My name is Albion Askushaj and I am currently studying software engineering at Western University <br>
-		I discovered my passion for software development during my first year of study's and jave been thrilled with the journey so far</p>
+        <p> My name is Albion Askushaj and I am a software engineering student at the University of Western Ontario</p>
 		<br>
-		<p>I love sports more than anything and would die for the game of soccer, my other hobbies include traveling, my dog, cooking and spending time with my loved ones.</p>
-<h1> Work experience! </h1>
-		<p>Volunteering at Calgary Food Bank  </br>Waiter/Manager at Toscana Italian Grill Calgary</p>
+		<p> I have a strong passion for the tech industry especially in Cybersecurity and Video game development</p>
+        <br> 
+        <p> I'm working on bringing to life my very own open world 2D platformer which I hope to release soon! </p>
+
 </div>
 </div>
 
